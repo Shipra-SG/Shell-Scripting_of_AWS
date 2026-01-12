@@ -45,7 +45,7 @@ The script checks for AWS CLI availability, installs it if missing, launches an 
 ```
 Shell-Scripting_of_AWS/
 │
-├── create_ec2.sh
+├── aws_cli.sh
 └── README.md
 ```
 
@@ -78,7 +78,7 @@ cd Shell-Scripting_of_AWS
 ### 3️- Make Script Executable
 
 ```bash
-chmod +x create_ec2.sh
+chmod u+x aws_cli.sh
 ```
 
 ---
@@ -86,7 +86,7 @@ chmod +x create_ec2.sh
 ### 4️- Run the Script
 
 ```bash
-./create_ec2.sh
+./aws_cli.sh
 ```
 
 ---
